@@ -2,7 +2,7 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 
 export interface TimelineItem {
   id: string;
-  type: 'work' | 'education';
+  type: 'work' | 'education'| 'project';
   title: string;
   organization: string;
   period: string;

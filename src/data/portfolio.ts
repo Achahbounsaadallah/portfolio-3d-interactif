@@ -32,59 +32,82 @@ export const projects: Project[] = [
 ];
 
 export const skills = [
-  { name: 'React / Next.js', level: 95 },
-  { name: 'TypeScript', level: 90 },
-  { name: 'Node.js', level: 85 },
-  { name: 'Three.js / WebGL', level: 80 },
-  { name: 'PostgreSQL / MongoDB', level: 85 },
-  { name: 'Docker / DevOps', level: 75 },
+  { name: 'Java', level: 85 },
+  { name: 'Python', level: 80 },
+  { name: 'C / C++', level: 75 },
+  { name: 'JavaScript', level: 50 },
+  { name: 'React', level: 85 },
+  { name: 'Spring Boot', level: 80 },
+  { name: 'Flask', level: 75 },
+  { name: 'HTML / CSS', level: 90 },
+  { name: 'SQL (MySQL / Oracle)', level: 85 },
+  { name: 'MongoDB / Cassandra / Neo4j', level: 80 },
 ];
 
 export const timeline: TimelineItem[] = [
   {
     id: '1',
-    type: 'work',
-    title: 'Lead Developer',
-    organization: 'Tech Startup',
+    type: 'education',
+    title: 'Élève Ingénieur en Informatique',
+    organization: 'ENSA Fès',
     period: '2022 - Présent',
-    description: 'Direction technique et développement de solutions SaaS innovantes. Management d\'une équipe de 5 développeurs.',
+    description:
+      'Formation en ingénierie informatique avec focus sur développement logiciel, bases de données et systèmes distribués.',
   },
   {
     id: '2',
     type: 'work',
-    title: 'Développeur Full Stack',
-    organization: 'Agence Digitale',
-    period: '2020 - 2022',
-    description: 'Création d\'applications web sur mesure pour des clients variés. Stack React, Node.js, PostgreSQL.',
+    title: 'Stage d’initiation (Développeur Full Stack)',
+    organization: 'EMS, Fès',
+    period: 'Juin - Juillet 2025',
+    description:
+      'Développement d’une application web full-stack pour la collecte et la gestion de données (React, Flask, PostgreSQL).',
   },
   {
     id: '3',
-    type: 'education',
-    title: 'Master Informatique',
-    organization: 'Université de Paris',
-    period: '2018 - 2020',
-    description: 'Spécialisation en développement web et intelligence artificielle. Mention Très Bien.',
+    type: 'project',
+    title: 'VisionGuard (Projet académique)',
+    organization: 'Projet en équipe',
+    period: '2024 - 2025',
+    description:
+      'Système intelligent de sécurité avec reconnaissance faciale en temps réel, dashboard web et API (React, Python, OpenCV, C#, .NET).',
   },
   {
     id: '4',
-    type: 'work',
-    title: 'Stage Développeur',
-    organization: 'Startup FinTech',
-    period: '2018',
-    description: 'Développement front-end React et intégration d\'APIs financières.',
+    type: 'project',
+    title: 'Applications Web & Big Data',
+    organization: 'Projets académiques',
+    period: '2023 - 2024',
+    description:
+      'Développement d’applications web (Spring Boot, JSF) et systèmes Big Data avec MongoDB, Cassandra et Neo4j.',
+  },
+  {
+    id: '5',
+    type: 'education',
+    title: 'Baccalauréat Sciences Mathématiques A',
+    organization: 'Lycée Tarik Ibn Zyad, Azrou',
+    period: '2019 - 2022',
+    description:
+      'Formation scientifique avec spécialisation en mathématiques.',
   },
 ];
 
 export const aboutInfo = {
-  name: 'Alex Martin',
-  title: 'Développeur Full Stack',
-  bio: `Passionné par le développement web depuis plus de 5 ans, je crée des expériences digitales uniques qui allient performance, esthétique et innovation. 
-  
-  Spécialisé dans l'écosystème JavaScript moderne (React, Node.js, Three.js), j'aime relever des défis techniques et transformer des idées en produits concrets.
-  
-  Quand je ne code pas, vous me trouverez à explorer de nouvelles technologies, contribuer à des projets open source, ou perfectionner mes compétences en 3D.`,
-  avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
-  location: 'Paris, France',
-  email: 'alex@exemple.com',
+  name: 'Achahboun Saad Allah',
+  title: 'Full-Stack & Data Engineer – BI & Analytics',
+  bio: `Passionné par le développement web et les technologies data, je conçois et développe des applications modernes qui allient performance, esthétique et innovation.
+
+En tant que Full-Stack Developer, je travaille principalement avec Java (Spring Boot) et React pour créer des solutions complètes, du backend au frontend.
+
+Je possède également des compétences en Business Intelligence et Analytics, avec une forte capacité à transformer les données en insights exploitables à travers des dashboards et des modèles d’analyse.
+
+À l’aise avec différents types de bases de données (SQL Server, MongoDB, Cassandra, Neo4j), j’adapte mes choix technologiques selon les besoins et la scalabilité des projets.
+
+Curieux et orienté solution, je m’intéresse aux architectures modernes, aux design patterns et aux systèmes orientés data.
+
+🚀 Mon objectif est de concevoir des systèmes intelligents, performants et centrés sur l’utilisateur.`,
+  avatar: 'public/images/image_cv.jpg',
+  location: 'Fes, Maroc',
+  email: 'achahbounsaadallah@gmail.com',
   availability: 'Disponible pour freelance',
 };

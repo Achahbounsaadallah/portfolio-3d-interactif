@@ -6,27 +6,26 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'alex@exemple.com',
-    href: 'mailto:alex@exemple.com',
+    value: 'achahbounsaadallah@gmail.com',
+    href: 'mailto:achahbounsaadallah@gmail.com',
   },
   {
     icon: MapPin,
     label: 'Localisation',
-    value: 'Paris, France',
+    value: 'Fes, Maroc',
     href: null,
   },
   {
     icon: Phone,
     label: 'Téléphone',
-    value: '+33 6 12 34 56 78',
-    href: 'tel:+33612345678',
+    value: '+212770287463',
+    href: 'tel:+212770287463',
   },
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Github, href: 'https://github.com/Achahbounsaadallah', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/saad-allah-achahboun-727041316/', label: 'LinkedIn' }
 ];
 
 export default function Contact() {
