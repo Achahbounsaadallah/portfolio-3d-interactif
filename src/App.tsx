@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter  basename="/portfolio-3d-interactif">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Index />} />
